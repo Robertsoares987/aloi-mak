@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>ALOI MAK</title>
+		<meta charset="utf-8" />
+		<meta name="author" content=" Luisa Barbosa,Pedro Henrique,Robert Soares">
+		<meta name="keyworks" content="comida, thai, gastronomia, comida de rua, asia" />
+		<meta name="description" content="Culinária do sudeste asiático em Brasília, você encontra no Aloi Mak">
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
+
+	</head>
+	<body>
+		<header>
+			<img src="IMG/banner.PNG" alt="Banner contendo a logo do resturante Aloi Mak acompanhado de uma imagem com legumes e verduras"/>
+		</header>
+
+		<nav class="nav-reservas">	
+			<img class="logo" src="IMG/logo.PNG" alt="Logo do restaurante contem imagem de um Buda com o nome aloi mak abaixo"/><br/>
+
+			<a class="a-menu" href="index.html#pag-quemsomos"> QUEM SOMOS </a><br/>
+			<a class="a-menu" href="index.html#pag-cardapio"> CARDÁPIO </a><br/>
+			<a class="a-menu" href="index.html#pag-ofertas"> OFERTAS </a><br/>
+			<a class="a-menu" href="index.html#pag-delivery"> DELIVERY </a><br/>
+			
+			<div class="btn">
+				<button class="btn-reservas btn1"> RESERVAS</button>
+					<a href="reservas.html" target="_blank" class="btn-reservas btn1">RESERVAS</a>
+			</div>
+			
+			<div id="pag-delivery" class="container-imagens-reserv">
+			 	<a href="https://www.instagram.com/aloimak.bsb" target="_blank">
+			 		<img class="img-icones" src="IMG/INST.PNG">
+				</a>
+							
+				<a href="mailto:aloimak@gmail.com" target="_blank">
+					<img class="img-iconess" src="IMG/email.PNG"/>
+				</a>			
+			</div>
+		</nav>		
+
+		<section id="pag-reservas">  
+		 	<h1>RESERVAS</h1>
+			<p>Garanta a sua mesa!</p>
+
+			<form name="" method="" action="">
+				<label for="nome">Nome:</label>
+				<input id="nome" type="text" name="nome_completo"  placeholder="Digite o seu nome completo" required autofocus>
+				<label for="cel">Celular:</label>
+				<input id="cel" type="tel" name="celular" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-s]\{4}.*?$" required />
+				<label for="email">E-mail:</label>
+				<input id="email" type="email" name="email"  placeholder="Digite o seu e-mail para contato">
+				<label for="acomp">Acompanhantes:</label>
+				<input id="acomp"  type="number" name="nome_completo" min="0" max="20" placeholder="Quantidade de Acompanhantes" required>
+				<div id="data-time">
+					<div>
+						<label for="data">Data:</label>
+						<input id="data" type="date" name="data" size="12" required>
+					</div>
+					<div>
+						<label for="hora">Hora:</label>
+						<input id="hora" type="time" name="hora_reserva" required>
+					</div>
+				</div>
+				<label for="msg">Mensagem:</label><br/>
+				<textarea id="msg" cols="54" rows="8" placeholder="Quer deixar algum recado?"></textarea><br/>
+
+				<div id="botoes-form">
+					<input type="submit" name="bnt-agendar" value="AGENDAR">
+					<input type="reset" name="bnt-cancelar" value="CANCELAR">
+				</div>
+
+			</form>
+
+				<p>Obrigado pela preferência!</p>
+
+		</section>
+	 	<footer>
+	 		<p> Desenvolvido por <a href="https://www.instagram.com/luiisatorres/">Luisa Barbosa - </a> 	
+	 							<a href="https://www.instagram.com/riqpedro">Pedro Henrique Silva - </a>
+								<a href="https://www.instagram.com/robertmichael987" target="_blank"> Robert Sousa</a> - 2021 </p>
+	 	</footer>
+	</body>
+</html>
